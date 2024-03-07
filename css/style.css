@@ -18576,10 +18576,7 @@ footer ul  li a{
       border-right: 1px solid grey;
       height: 100%;
       }
-#mainmenu a:hover{
-      text-decoration: underline;
-      font-weight: bolder;
-    }
+
 .imgbgg{
     width: 900px;
 }
@@ -18721,13 +18718,15 @@ height: 500px;
 }
 #mainmenu a{
    font-weight: bolder !important;
-   font-size: 20px !important;
+   font-size: 15px !important;
    font-family: 'Times New Roman', Times, serif;
 }
 .guySeeingPhone{
-    background-image: url('../images/background/planeWithCar.jpeg');
+    background-image: url('../images/newPics/quality.jpeg');
 }
-
+marquee{
+    color: #222;
+}
 @media (max-width:400px){
     .aboutPic{
         width: 450px;
@@ -18776,3 +18775,14 @@ body{
 .handSmall{
   margin-left: 15%;
 }
+
+
+
+
+
+
+
+
+
+
+
