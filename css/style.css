@@ -18475,7 +18475,7 @@ img {
 }
 
 .forHeight{
-    height: 383px;
+    height: 500px;
 }
 .forPdding{
     margin-top: 34px;
@@ -18722,10 +18722,13 @@ height: 500px;
    font-family: 'Times New Roman', Times, serif;
 }
 .guySeeingPhone{
-    background-image: url('../images/newPics/quality.jpeg');
+    background-image: url('../images/sirPic/quality.jpeg');
+    border-radius: 20px;
+    margin-left: 20px;
 }
+
 marquee{
-    color: #222;
+    color: white;
 }
 @media (max-width:400px){
     .aboutPic{
@@ -18782,13 +18785,35 @@ border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
+.banner_image{
+background: whitesmoke;
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10.3px);
+-webkit-backdrop-filter: blur(10.3px);
+border: 1px solid rgba(79, 56, 56, 0.99);
+margin-bottom: 20px;
+}
+.banner_image img{
+    border-radius: 20px;
+
+}
 
 
+.headerColor{
+    border-bottom: 1px solid black;
+    background-color:whitesmoke;
+    border-radius: 20px;
+    margin-top: 5px;
+}
 
 
+#mainmenu a:hover{
+   text-decoration: underline;
+}
 
 
-
-
-
-
+.title-equipments{
+    text-align: center;
+    font-weight: bold;
+}

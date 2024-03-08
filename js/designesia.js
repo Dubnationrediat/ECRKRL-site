@@ -6,7 +6,7 @@
 
      var rtl_mode = 'off'; // on - for enable RTL, off - for deactive RTL
      var preloader = 'on'; // on - for enable preloader, off - for disable preloader
-     var preloader_custom_image = '../images/ui/1.1.gif'; // insert image url to enable custom image, off - for disable custom image
+     var preloader_custom_image = ''; // insert image url to enable custom image, off - for disable custom image
      var loading_text = "Loading..."; // text for preloader. If you don't use text just leave it blank
      var loading_text_position = "0px"; // set position for loading text. Default value is 0px
 
@@ -19,12 +19,12 @@
      var $op_header_autoshow = 0;
      var grid_size = 10;
      /* predefined vars end */
-
+  
      function de_loader(){        
         if(preloader_custom_image=="off"){
             var myHtml = $("<div/>")
             .addClass("de-preloader")
-            .append( $("<div/>").addClass("car")
+            .append( $("<div/>").addClass("")
             .append( $("<div/>").addClass("strike strike"))
             .append( $("<div/>").addClass("strike strike2"))
             .append( $("<div/>").addClass("strike strike3"))
