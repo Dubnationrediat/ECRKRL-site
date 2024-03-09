@@ -18817,3 +18817,20 @@ margin-bottom: 20px;
     text-align: center;
     font-weight: bold;
 }
+
+.profile-link{
+    width: 150px;
+    background-color: rgb(99 102 241);
+    border:none ;
+    height: 30px;
+}
+.profile-link a{
+ text-decoration: none;
+ color: black;
+ font-weight: bolder;
+}
+.profile-link a:hover{
+ text-decoration: none;
+ color: white;
+ font-weight: bolder;
+}
